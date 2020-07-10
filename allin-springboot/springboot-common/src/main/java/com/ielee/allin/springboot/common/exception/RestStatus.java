@@ -1,4 +1,4 @@
-package com.ielee.allin.common.exception;
+package com.ielee.allin.springboot.common.exception;
 
 /**
  * 异常处理状态和描述
