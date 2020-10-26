@@ -5,8 +5,7 @@
     <parent>
         <artifactId>allin-springboot</artifactId>
         <groupId>com.ielee.allin</groupId>
-        <version>1.0</version>
-        <relativePath>../pom.xml</relativePath>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>springboot-manager</artifactId>
@@ -15,7 +14,7 @@
         <dependency>
             <groupId>com.ielee.allin</groupId>
             <artifactId>springboot-dao</artifactId>
-            <version>1.0</version>
+            <version>${project.parent.version}</version>
         </dependency>
     </dependencies>
 </project>

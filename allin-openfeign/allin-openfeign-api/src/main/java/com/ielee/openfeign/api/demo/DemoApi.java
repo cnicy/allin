@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * url为测试地址调用，在K8S中是应该是服务Service名称
  */
-@FeignClient(value = "demo-service", path = "demo", url = "http://localhost:8089")
+@FeignClient(value = "demo-service", path = "demo", url = "http://service-name:8089")
 public interface DemoApi {
     /**
      * get请求

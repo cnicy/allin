@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>allin-springboot</artifactId>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <modules>

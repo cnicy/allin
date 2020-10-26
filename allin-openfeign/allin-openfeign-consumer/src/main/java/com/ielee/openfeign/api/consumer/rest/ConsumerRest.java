@@ -15,6 +15,7 @@ public class ConsumerRest {
 
     @GetMapping("call")
     public ResponseEntity call() {
+
         // RPC
         String res = demoApi.hello("world");
         return ResponseEntity.ok(res);

@@ -2,11 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ielee.allin</groupId>
     <artifactId>allin</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
+
     <modules>
         <module>allin-common</module>
         <module>allin-sdk</module>
@@ -17,6 +19,7 @@
 
     <properties>
         <version.lombok>1.18.12</version.lombok>
+        <docker.image.prefix>hub.app-chengdu1.yunzhicloud.com/test</docker.image.prefix>
     </properties>
 
     <parent>
